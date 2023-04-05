@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a repository for a Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
 
-## Getting Started
+https://next-airbnb-divyeshio.vercel.app/
 
-First, run the development server:
+# Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Booking / Reservation system
+- Guest reservation cancellation
+- Owner reservation cancellation
+- Pricing calculation
+- Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
+- Favorites system
+- Shareable URL filter
+- Creation and deletion of properties
+- Authentication :
+    - Email/Password
+    - Google Integration
+    - Github Integration
+- Image upload using Cloudinary CDN
+- Client form validation and handling using react-hook-form
+- Server error handling using react-toast
+- Calendars with react-date-range
+- Page loading state
+- Page empty state
+- Tailwind design, animations and effects
+- Fully responsive
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Screenshots:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Home Page
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Home Page](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/home-page.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Property Details
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Property Details](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/property-details-page-1.png)
 
-## Learn More
+![Property Details](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/property-details-page.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Login and Register
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Login](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/login-modal.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Register](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/register-modal.png)
 
-## Deploy on Vercel
+## Filter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Filter](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/filter-modal.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## My Properties
+
+![My Properties](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/my-properties-page.png)
+
+## Trips
+
+![Trips](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/trips-page.png)
+
+## Favorites Properties
+
+![Favorites](https://raw.githubusercontent.com/divyeshio/next-airbnb/main/screens/favorties-page.png)
