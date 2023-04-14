@@ -43,6 +43,13 @@ export default async function RootLayout({
           {children}
         </div>
       </body>
+      <ClientOnly>
+        <footer className="footer footer-center p-2 bg-slate-100 text-base-content rounded fixed w-full z-10 bottom-0 items-center">
+          <div>
+            <p className="text-center">Made with ❤️ by <a className="underline" href="https://github.com/divyeshio">Divyesh</a></p>
+          </div>
+        </footer>
+      </ClientOnly>
     </html>
   )
 }
