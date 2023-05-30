@@ -3,7 +3,6 @@ name: Auto-merge dependabot updates
 on:
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
 
 permissions:
   pull-requests: write
@@ -15,7 +14,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ github.actor == 'dependabot[bot]' || github.actor == 'divyeshio' }}
+    if: ${{ github.actor == 'dependabot[bot]' }}
 
     steps:
       - name: Dependabot metadata
